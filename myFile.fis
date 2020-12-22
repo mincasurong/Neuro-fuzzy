@@ -1,0 +1,150 @@
+[System]
+Name='myFile'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=4
+NumRules=16
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[-9.9804 9.9677]
+NumMFs=5
+MF1='mf1':'gaussmf',[1.27018411991968 -9.9804]
+MF2='mf2':'gaussmf',[-0.685577748125336 -5.54034770017678]
+MF3='mf3':'gaussmf',[1.90982687055815 0.124829085878287]
+MF4='mf4':'gaussmf',[1.41247641336331 5.82965937541297]
+MF5='mf5':'gaussmf',[1.45124473031525 9.9677]
+
+[Input2]
+Name='input2'
+Range=[-9.9945 9.9994]
+NumMFs=5
+MF1='mf1':'gaussmf',[1.18940021243362 -9.9945]
+MF2='mf2':'gaussmf',[0.748560626721347 -4.76427928488237]
+MF3='mf3':'gaussmf',[1.76944636466984 0.187094193117682]
+MF4='mf4':'gaussmf',[0.632866077952493 5.03803135477164]
+MF5='mf5':'gaussmf',[0.515008099408927 9.98820115933847]
+
+[Output1]
+Name='output1'
+Range=[0 1]
+NumMFs=20
+MF1='mf1':'constant',[0.000108357250655463]
+MF2='mf2':'constant',[0.0356379051666717]
+MF3='mf3':'constant',[0.0976686591373343]
+MF4='mf4':'constant',[0.186669784634114]
+MF5='mf5':'constant',[0.298649762719269]
+MF6='mf6':'constant',[0.851728745652799]
+MF7='mf7':'constant',[0.29044260899754]
+MF8='mf8':'constant',[0]
+MF9='mf9':'constant',[0.493192923708607]
+MF10='mf10':'constant',[0.416050382334262]
+MF11='mf11':'constant',[0.525958359801945]
+MF12='mf12':'constant',[0.5612043561967]
+MF13='mf13':'constant',[0.823570538947198]
+MF14='mf14':'constant',[0.775033839154434]
+MF15='mf15':'constant',[0.728043784280021]
+MF16='mf16':'constant',[0.809134909102997]
+MF17='mf17':'constant',[0.84161687251291]
+MF18='mf18':'constant',[0.877198221232136]
+MF19='mf19':'constant',[0.973449400010425]
+MF20='mf20':'constant',[1]
+
+[Output2]
+Name='output2'
+Range=[0 1]
+NumMFs=20
+MF1='mf1':'constant',[0]
+MF2='mf2':'constant',[0.0479837604210923]
+MF3='mf3':'constant',[0.101415174986408]
+MF4='mf4':'constant',[0.167859404418397]
+MF5='mf5':'constant',[0.164493688750021]
+MF6='mf6':'constant',[0.312087565583043]
+MF7='mf7':'constant',[0.364756339273285]
+MF8='mf8':'constant',[0.367067798782242]
+MF9='mf9':'constant',[0.429474602538412]
+MF10='mf10':'constant',[0.442902158185136]
+MF11='mf11':'constant',[0.555431096286227]
+MF12='mf12':'constant',[0.737408875094884]
+MF13='mf13':'constant',[0.631995387985035]
+MF14='mf14':'constant',[0.581843425006555]
+MF15='mf15':'constant',[0.704426538044038]
+MF16='mf16':'constant',[0.988760446155023]
+MF17='mf17':'constant',[0.8734058537322]
+MF18='mf18':'constant',[0.866952983844169]
+MF19='mf19':'constant',[0.910262291983551]
+MF20='mf20':'constant',[1]
+
+[Output3]
+Name='output3'
+Range=[0 1]
+NumMFs=20
+MF1='mf1':'constant',[3.18475174895525e-05]
+MF2='mf2':'constant',[0.0689532205258591]
+MF3='mf3':'constant',[0.0937101805130737]
+MF4='mf4':'constant',[0.239647915035498]
+MF5='mf5':'constant',[0.210142756015365]
+MF6='mf6':'constant',[0.268481273801435]
+MF7='mf7':'constant',[0.310358600552386]
+MF8='mf8':'constant',[0.218333107980709]
+MF9='mf9':'constant',[0.411220034638627]
+MF10='mf10':'constant',[0.534335484156178]
+MF11='mf11':'constant',[0.591200778697909]
+MF12='mf12':'constant',[0.187543795007004]
+MF13='mf13':'constant',[0.647136635712944]
+MF14='mf14':'constant',[0.818377101841604]
+MF15='mf15':'constant',[0.731308369603172]
+MF16='mf16':'constant',[0.824698105767409]
+MF17='mf17':'constant',[0.815711267933043]
+MF18='mf18':'constant',[0.880466790560187]
+MF19='mf19':'constant',[0.981663425747214]
+MF20='mf20':'constant',[1]
+
+[Output4]
+Name='output4'
+Range=[0 1]
+NumMFs=20
+MF1='mf1':'constant',[0.00333992519161048]
+MF2='mf2':'constant',[0.0318253576121141]
+MF3='mf3':'constant',[0.0783152980659767]
+MF4='mf4':'constant',[0.121137568678904]
+MF5='mf5':'constant',[0.176166075915698]
+MF6='mf6':'constant',[0.179903681518369]
+MF7='mf7':'constant',[0.273472009951565]
+MF8='mf8':'constant',[0.369142690610325]
+MF9='mf9':'constant',[0.549895592407125]
+MF10='mf10':'constant',[0.482829255821281]
+MF11='mf11':'constant',[0.402470588238072]
+MF12='mf12':'constant',[0.597848306342526]
+MF13='mf13':'constant',[0.592379379887862]
+MF14='mf14':'constant',[0.66968072333867]
+MF15='mf15':'constant',[0.981096639890848]
+MF16='mf16':'constant',[0.770611118706509]
+MF17='mf17':'constant',[0.841215926240354]
+MF18='mf18':'constant',[0.899558859055994]
+MF19='mf19':'constant',[0.982398233121659]
+MF20='mf20':'constant',[1]
+
+[Rules]
+0 1, 3 1 5 13 (1) : 1
+1 4, 2 3 4 8 (1) : 1
+0 4, 2 12 7 3 (1) : 1
+5 3, 3 3 18 5 (1) : 1
+3 3, 18 2 3 2 (1) : 1
+0 5, 1 3 5 17 (1) : 1
+1 3, 2 4 17 1 (1) : 1
+3 5, 1 4 2 4 (1) : 1
+1 0, 1 0 10 16 (1) : 1
+2 4, 8 11 14 4 (1) : 1
+3 2, 3 12 2 1 (1) : 1
+2 3, 8 13 3 5 (1) : 1
+4 3, 8 16 1 1 (1) : 1
+1 1, 5 8 2 17 (1) : 1
+5 0, 2 3 4 18 (1) : 1
+3 1, 7 6 19 6 (1) : 1
